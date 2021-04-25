@@ -1,6 +1,6 @@
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import { NavigationBar} from './components/NavigationBar';
+import { NavigationBar } from './components/NavigationBar';
 import { FooterPage } from './components/FooterPage';
 import React from 'react';
 
@@ -15,13 +15,13 @@ function App() {
     <>
       <React.Fragment>
         <Router>
-        <NavigationBar />
-        <Switch>
-          <Route exact path="/" component={Home} />
-          <Route path="/about" component={About} />
-          <Route path="/contacts" component={Contact} />
-          <Route component={NoMatch} />
-      </Switch>
+          <NavigationBar />
+          <Switch>
+            <Route exact path="/" component={Home} />
+            <Route path="/about" component={About} />
+            <Route path="/contacts" component={Contact} />
+            <Route component={NoMatch} />
+          </Switch>
         </Router>
       </React.Fragment>
       <FooterPage />

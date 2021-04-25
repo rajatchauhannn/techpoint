@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import MapContainer from './components/GoogleMap';
+// import MapContainer from './components/GoogleMap';
 
 const Map = styled.div`
 
@@ -41,7 +41,7 @@ export const Contact = (props) => (
                     ujjwal@techpointitsolutions.in</p>
             <Column>
             <Map>
-                <MapContainer />
+                {/* <MapContainer /> */}
             </Map>
             </Column>
                 <p>Registered office:
