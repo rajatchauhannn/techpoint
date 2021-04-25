@@ -55,7 +55,7 @@ export const NavigationBar = () => (
             <Nav.Item><Nav.Link href="/">SERVICES</Nav.Link></Nav.Item>
             <Nav.Item><Nav.Link href="/contacts">CONTACT US</Nav.Link></Nav.Item>
           </Nav>
-          <ContactsNav>Email: kuldeep@techpointitsolutions.in <br /> +91 9650101559</ContactsNav>
+          <ContactsNav>Email: kuldeep@techpointitsolutions.in <br /> Mobile: +91 9650101559</ContactsNav>
         </Navbar.Collapse>
     </Navbar>
   </Styles>
