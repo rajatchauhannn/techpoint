@@ -10,6 +10,7 @@ import {
   
 export const FooterPage = () => {
   return (
+    <>
     <Box>
       <h4 style={{ color: "#91A937", 
                    textAlign: "center", 
@@ -34,6 +35,7 @@ export const FooterPage = () => {
         </Row>
       </Container>
     </Box>
+    </>
   );
 };
 export default FooterPage;
