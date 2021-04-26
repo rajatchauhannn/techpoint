@@ -15,7 +15,7 @@ const Row = styled.div`
 const Column = styled.div`
     flex: 50%;
     width: 50%;
-    padding: 100px;
+    padding-left: 100px;
 `;
 
 const Heading = styled.div`
@@ -26,34 +26,38 @@ const Heading = styled.div`
 
 export const Contact = (props) => (
     <>
-        <Heading>Contact Us</Heading>
+
         <Row>
             <Column>
+                <Heading>Contact Us</Heading>
+                <br />
                 <p>Corporate office:
-                    E-6, 2nd Floor, Block-E,
-                    Main Road, Kalkaji, 
-                    New Delhi-110019
-                    <hr></hr>
-                    Mb:+91 965010 1559 
-                        +91 997171 2955 
-                    Ph: +91 11-47025933
-                    Email: kuldeep@techpointitsolutions.in
+                    E-6, 2nd Floor, Block-E, <br />
+                    Main Road, Kalkaji,  <br />
+                    New Delhi-110019 <br />
+                    <br />
+                    Mb:+91 965010 1559  <br />
+                        +91 997171 2955  <br />
+                    Ph: +91 11-47025933 <br />
+                    Email: kuldeep@techpointitsolutions.in <br />
                     ujjwal@techpointitsolutions.in</p>
-            <Column>
-            <Map>
-                {/* <MapContainer /> */}
-            </Map>
-            </Column>
-                <p>Registered office:
-                    171, 2nd Floor, Sector-5,
-                    Vasundhara, Ghaziabad,
-                    Uttar Pradesh-201012.
-                    <hr></hr>
-                    Mb:+91 965010 1559 
-                        +91 997171 2955 
-                    Ph: +91 120-4575953
-                    Email: kuldeep@techpointitsolutions.in
-                    ujjwal@techpointitsolutions.in</p>              
+                    <br />
+                    <br />
+                <Column>
+                    <Map>
+                        {/* <MapContainer /> */}
+                    </Map>
+                </Column>
+                <p>Registered office: <br />
+                    171, 2nd Floor, Sector-5, <br />
+                    Vasundhara, Ghaziabad, <br />
+                    Uttar Pradesh-201012. <br />
+                    <br />
+                    Mb:+91 965010 1559 <br />
+                        +91 997171 2955  <br />
+                    Ph: +91 120-4575953 <br />
+                    Email: kuldeep@techpointitsolutions.in <br />
+                    ujjwal@techpointitsolutions.in</p>
             </Column>
         </Row>
 

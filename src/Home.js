@@ -2,9 +2,6 @@ import React from 'react';
 import styled from 'styled-components';
 import { Card, CardDeck, Carousel } from 'react-bootstrap';
 
-const Heading = styled.div`
-  font-size: 20px;
-`;
 
 const GridWrapper = styled.div`
   padding-top: 50px;
@@ -47,7 +44,8 @@ const GridWrapper = styled.div`
   .car-img {
     postion: absolute;
     height:300px;
-    clip: rect(0px,60px,200px,0px);
+    width: 100px;
+    margin: auto;
   }
   .card {
     background-color: rgba(145, 169, 55, 0.4);
@@ -57,7 +55,17 @@ const GridWrapper = styled.div`
   }
 
   img, .carousel-inner {
+    object-fit: cover;
     border-radius: 20px;
+  }
+
+  .carousel-logos {
+    background-color: rgba(127, 127, 125, 0.4);
+    font-size: 15px;
+  }
+
+  .logos {
+    padding: 0 50px 0 50px;
   }
 `;
 export const Home = (props) => (
@@ -78,8 +86,29 @@ export const Home = (props) => (
             alt="Second slide"
           />
         </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100 car-img"
+            src="stock_3.jpg"
+            alt="Third slide"
+          />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100 car-img"
+            src="stock_4.jpg"
+            alt="Fourth slide"
+          />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100 car-img"
+            src="stock_5.jpg"
+            alt="Fifth slide"
+          />
+        </Carousel.Item>
       </Carousel>
-      <Carousel className = "carousel-solutions">
+      <Carousel className="carousel-solutions">
         <Carousel.Item>
           <CardDeck>
             <Card>
@@ -138,13 +167,13 @@ export const Home = (props) => (
               <Card.Body>
                 <Card.Title>Networking</Card.Title>
                 <Card.Text>
-                Today’s enterprises are no longer confined to a single city, 
-                let alone a single office building. Companies operate from 
-                multiple campuses and geographic locations. They communicate 
-                with employees, customers and partners scattered across the 
-                country and the world. And they rely on their enterprise networks 
-                to keep the flow of information up and running at the speed of 
-                business. That’s where Techpoint IT Solutions. comes in.
+                  Today’s enterprises are no longer confined to a single city,
+                  let alone a single office building. Companies operate from
+                  multiple campuses and geographic locations. They communicate
+                  with employees, customers and partners scattered across the
+                  country and the world. And they rely on their enterprise networks
+                  to keep the flow of information up and running at the speed of
+                  business. That’s where Techpoint IT Solutions. comes in.
             </Card.Text>
               </Card.Body>
             </Card>
@@ -153,13 +182,13 @@ export const Home = (props) => (
               <Card.Body>
                 <Card.Title>Enterprise Management</Card.Title>
                 <Card.Text>
-                Your technology assets offer tremendous business potential. 
-                The challenge is: how do you identify and tap into that potential, 
-                given the complexity of today’s IT environments and the strain on 
-                internal resources? Techpoint IT Solutions. has your solution. With 
-                expertise extending across every point of the enterprise your 
-                infrastructure touches, we can help you maximize your technology 
-                assets to achieve your business goals.
+                  Your technology assets offer tremendous business potential.
+                  The challenge is: how do you identify and tap into that potential,
+                  given the complexity of today’s IT environments and the strain on
+                  internal resources? Techpoint IT Solutions. has your solution. With
+                  expertise extending across every point of the enterprise your
+                  infrastructure touches, we can help you maximize your technology
+                  assets to achieve your business goals.
             </Card.Text>
               </Card.Body>
             </Card>
@@ -168,19 +197,19 @@ export const Home = (props) => (
               <Card.Body>
                 <Card.Title>Cloud Solutions</Card.Title>
                 <Card.Text>
-                Empower your business with Cloud Solutions from Techpoint IT Solutions.. 
-                Designed to enable your organization with more agile, cost effective 
-                technologies, our Cloud services and solutions span many different 
-                topologies and varying levels of capability to address your organization's 
-                present-day need.
+                  Empower your business with Cloud Solutions from Techpoint IT Solutions..
+                  Designed to enable your organization with more agile, cost effective
+                  technologies, our Cloud services and solutions span many different
+                  topologies and varying levels of capability to address your organization's
+                  present-day need.
             </Card.Text>
               </Card.Body>
             </Card>
           </CardDeck>
         </Carousel.Item>
       </Carousel>
-      <Card>
-        <Card.Img variant="top" src="stock_1.jpg" class="car-img" />
+      <Card className="carousel-logos">
+        <Card.Img variant="top" src="clients4.png" className="logos" />
         <Card.ImgOverlay>
           <Card.Body>
             <Card.Text>
