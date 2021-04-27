@@ -1,73 +1,8 @@
 import React from 'react';
-import styled from 'styled-components';
-import { Card, CardDeck, Carousel } from 'react-bootstrap';
+import { Card, CardDeck, Carousel, Row } from 'react-bootstrap';
+import { Enquiry } from './components/Enquiry';
+import { Heading, GridWrapper } from './HomeStyles';
 
-
-const GridWrapper = styled.div`
-  padding-top: 50px;
-  width: 1000px;
-  margin: 0 auto;
-  display: grid;
-  color: white;
-  grid-gap: 50px 50px;
-  padding-bottom: 50px;
-
-  .card-deck {
-    margin: auto;
-  }
-  .carousel-solutions {
-    .card {
-      height: 480px;
-    }
-    .carousel-control-prev, .carousel-control-next {
-      margin: -100px;
-    }
-    .carousel-indicators {
-      margin: -25px;
-    }
-  }
-
-  .carousel-text{
-    width:50%;
-    height:250px;
-    .carousel-inner {
-      padding 40px;
-    }
-    .carousel-indicators {
-      opacity: 0;
-    }
-    .carousel-control-prev-icon, .carousel-control-next-icon {
-      opacity: 0;
-    }
-  }
-  
-  .car-img {
-    postion: absolute;
-    height:300px;
-    width: 100px;
-    margin: auto;
-  }
-  .card {
-    background-color: rgba(145, 169, 55, 0.4);
-    border-radius: 20px;
-    font-size: 12px;
-
-  }
-
-  img, .carousel-inner {
-    object-fit: cover;
-    border-radius: 20px;
-  }
-
-  .carousel-logos {
-    background-color: rgba(127, 127, 125, 0.4);
-    font-size: 15px;
-  }
-
-  .logos {
-    padding: 0 50px 0 50px;
-  }
-`;
 export const Home = (props) => (
   <>
     <GridWrapper>
@@ -228,6 +163,8 @@ export const Home = (props) => (
           </Card.Body>
         </Card.ImgOverlay>
       </Card>
+      <Row><Heading><h1>Quick Enquiry:</h1></Heading></Row>
+      <Row>
       <Carousel className="carousel-text">
         <Carousel.Item>
           <p>
@@ -258,6 +195,8 @@ export const Home = (props) => (
         </Carousel.Item>
 
       </Carousel>
+      <Enquiry />
+      </Row>
     </GridWrapper>
   </>
 )
