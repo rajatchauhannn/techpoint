@@ -3,6 +3,7 @@ import { Card, CardDeck, Carousel, Row } from 'react-bootstrap';
 import { Enquiry } from './components/Enquiry';
 import { Heading, GridWrapper } from './HomeStyles';
 
+
 export const Home = (props) => (
   <>
     <GridWrapper>
