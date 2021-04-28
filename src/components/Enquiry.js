@@ -38,8 +38,8 @@ export const Enquiry = (props) => {
         e.preventDefault()
         alert(`Thank you for your message. Your query has been forwarded.`);
         const templateId = 'template_4rd43a2';
-        const serviceID = "service_agey6km";
-        sendFeedback(serviceID, templateId, { from_name: formData.name, message_html: formData.query, reply_to: formData.email })
+        const serviceID = "service_xrensab";
+        sendFeedback(serviceID, templateId, { from_name: formData.name, mobile: formData.mobile, message_html: formData.query, email: formData.email })
 
         console.log(formData);
       };
