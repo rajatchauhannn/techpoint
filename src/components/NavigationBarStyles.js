@@ -4,34 +4,31 @@ import styled from 'styled-components';
 export const ContactsNav = styled.div`
   text-align: right;
   padding-left: 50px;
-  color: white;
+  color: #fff;
 `;
 
 export const Styles = styled.div`
-  .navlinks { diplay: grid; grid-gap: 10px; padding-left: 50px; padding-right: 50px; font-size: 15px; border-color: #91A937; border-size: 1px; border-style: inset; border-radius: 10px; justify-content: center;}
 
-  .navbar { background-image: linear-gradient(black, #91A937, #7F7F7D, #7F7F7D); background-repeat: no-repeat;
-    background-attachment: fixed; }
-  a, .navbar-nav, .navbar-light .nav-link {
+  .navbar { 
+    overlfow: hidden;
+    white-space: nowrap;
+    display:flex;
+    font-size: 0.9em;
+    background-image: linear-gradient(#000, #91A937, #7F7F7D, #7F7F7D); background-repeat: no-repeat;
+    background-attachment: fixed; 
+  }
+  .navbar-light .nav-link {
     color: #91A937;
     &:hover { color: white; }
     
   }
   .navbar-brand {
-    padding-right: 50px;
-    font-size: 1.4em;
+    font-size: 2em;
     color: #91A937;
     &:hover { color: white; }
     display: flex;
-    align-items: center;
+    align-items: right;
   }
-  .form-center {
-    position: absolute !important;
-    left: 25%;
-    right: 25%;
-  }
-  .navbar-brand>img {
-    padding: 7px 14px;
-  }
+  
 
 `;
