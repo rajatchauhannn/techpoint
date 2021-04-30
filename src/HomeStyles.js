@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 
 export const Heading = styled.div`
+  
   margin: auto;
   position: relative;
   left: 5px;
@@ -13,12 +14,29 @@ export const Heading = styled.div`
   background-image: linear-gradient(rgba(127, 169, 55, 0.6), rgba(127, 169, 55, 0.2));
 `;
 
+
 export const GridWrapper = styled.div`
+
+  @media only screen and (max-width: 720px) {
+    [class*="img"] {
+      width: 100%;
+    }
+    [class*="carousel-img"] {
+      width: 45%;
+    }
+    [class*="carousel-solutions"] {
+      width: 45%;
+    }
+    [class*="carousel-logos"] {
+      width: 45%;
+    }
+  }
+
   padding-top: 50px;
-  width: 1000px;
+  max-width: 1000px;
   margin: 0 auto;
   display: grid;
-  color: white;
+  color: #fff;
   grid-gap: 50px 50px;
   padding-bottom: 50px;
 

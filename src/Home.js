@@ -164,7 +164,7 @@ export const Home = (props) => (
           </Card.Body>
         </Card.ImgOverlay>
       </Card>
-      <Row><Heading><h1>Quick Enquiry:</h1></Heading></Row>
+      <Row ><Heading><h1>Quick Enquiry:</h1></Heading></Row>
       <Row>
       <Carousel className="carousel-text">
         <Carousel.Item>

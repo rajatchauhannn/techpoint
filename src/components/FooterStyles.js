@@ -1,8 +1,8 @@
 import styled from 'styled-components';
    
 export const Box = styled.div`
-  padding: 80px 60px;
-  background: black;
+  padding: 80px 200px;
+  background: #000;
   position: relative;
   bottom: 0;
   width: 100%;
@@ -13,49 +13,21 @@ export const Box = styled.div`
   }
 `;
    
-export const Container = styled.div`
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    max-width: 1000px;
-    margin: 0 auto;
-    /* background: red; */
-`
-   
-export const Column = styled.div`
-  display: flex;
-  flex-direction: column;
-  text-align: left;
-  margin-left: 100px;
-`;
-   
-export const Row = styled.div`
-  display: grid;
-  grid-template-columns: repeat(auto-fill, 
-                         minmax(185px, 1fr));
-  grid-gap: 100px;
-   
-  @media (max-width: 1000px) {
-    grid-template-columns: repeat(auto-fill, 
-                           minmax(200px, 1fr));
+export const FooterText = styled.div`
+  a{
+    color: #212529;
+    &:hover { color: #7F7F7D; }
   }
+  text-align: center;
 `;
-   
-export const FooterLink = styled.a`
-  color: #fff;
-  font-size: 15px;
-  text-decoration: none;
-  margin-bottom: 20px;
-   
-  &:hover {
-      color: green;
-      transition: 200ms ease-in;
-  }
+
+
+export const FooterHeading = styled.div`
+    font-size: 1em;
+    font-weight: bolder;
+    color: #91A937;
+    text-align: center;
+    margin-top: -50px;
+
 `;
-   
-export const Heading = styled.p`
-  font-size: 18px;
-  color: #fff;
-  margin-bottom: 40px;
-  font-weight: bold;
-`;
+
