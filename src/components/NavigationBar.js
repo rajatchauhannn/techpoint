@@ -1,13 +1,12 @@
 import React from 'react';
 import { Nav, Navbar } from 'react-bootstrap';
-import logo from '../techpointlogo.png';
 import { ContactsNav, Styles } from './NavigationBarStyles';
 
 export const NavigationBar = () => (
   <Styles>
     <Navbar expand="lg" className="sticky-nav">
         <div className="logo-container">
-          <img src={logo} alt="logo" />
+          <img src='img/techpointlogo.png' alt="logo" />
         </div>
         <Navbar.Brand href="/">TECHPOINT IT SOLUTIONS</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />

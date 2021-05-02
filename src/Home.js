@@ -11,35 +11,35 @@ export const Home = (props) => (
         <Carousel.Item>
           <img
             className="d-block w-100 car-img"
-            src="stock_1.jpg"
+            src="img/stock_1.jpg"
             alt="First slide"
           />
         </Carousel.Item>
         <Carousel.Item>
           <img
             className="d-block w-100 car-img"
-            src="stock_2.jpg"
+            src="img/stock_2.jpg"
             alt="Second slide"
           />
         </Carousel.Item>
         <Carousel.Item>
           <img
             className="d-block w-100 car-img"
-            src="stock_3.jpg"
+            src="img/stock_3.jpg"
             alt="Third slide"
           />
         </Carousel.Item>
         <Carousel.Item>
           <img
             className="d-block w-100 car-img"
-            src="stock_4.jpg"
+            src="img/stock_4.jpg"
             alt="Fourth slide"
           />
         </Carousel.Item>
         <Carousel.Item>
           <img
             className="d-block w-100 car-img"
-            src="stock_5.jpg"
+            src="img/stock_5.jpg"
             alt="Fifth slide"
           />
         </Carousel.Item>
@@ -48,7 +48,7 @@ export const Home = (props) => (
         <Carousel.Item>
           <CardDeck>
             <Card>
-              <Card.Img variant="top" src="virtualization.jpg" />
+              <Card.Img variant="top" src="img/virtualization.jpg" />
               <Card.Body>
                 <Card.Title>Virtualization</Card.Title>
                 <Card.Text>
@@ -62,7 +62,7 @@ export const Home = (props) => (
               </Card.Body>
             </Card>
             <Card>
-              <Card.Img variant="top" src="security.jpg" />
+              <Card.Img variant="top" src="img/security.jpg" />
               <Card.Body>
                 <Card.Title>Security</Card.Title>
                 <Card.Text>
@@ -81,7 +81,7 @@ export const Home = (props) => (
               </Card.Body>
             </Card>
             <Card>
-              <Card.Img variant="top" src="storage.jpg" />
+              <Card.Img variant="top" src="img/storage.jpg" />
               <Card.Body>
                 <Card.Title>Storage</Card.Title>
                 <Card.Text>
@@ -99,7 +99,7 @@ export const Home = (props) => (
         <Carousel.Item>
           <CardDeck>
             <Card>
-              <Card.Img variant="top" src="networking.jpg" />
+              <Card.Img variant="top" src="img/networking.jpg" />
               <Card.Body>
                 <Card.Title>Networking</Card.Title>
                 <Card.Text>
@@ -114,7 +114,7 @@ export const Home = (props) => (
               </Card.Body>
             </Card>
             <Card>
-              <Card.Img variant="top" src="enterprise.jpg" />
+              <Card.Img variant="top" src="img/enterprise.jpg" />
               <Card.Body>
                 <Card.Title>Enterprise Management</Card.Title>
                 <Card.Text>
@@ -129,7 +129,7 @@ export const Home = (props) => (
               </Card.Body>
             </Card>
             <Card>
-              <Card.Img variant="top" src="cloud.jpg" />
+              <Card.Img variant="top" src="img/cloud.jpg" />
               <Card.Body>
                 <Card.Title>Cloud Solutions</Card.Title>
                 <Card.Text>
@@ -145,7 +145,7 @@ export const Home = (props) => (
         </Carousel.Item>
       </Carousel>
       <Card className="carousel-logos">
-        <Card.Img variant="top" src="clients4.png" className="logos" />
+        <Card.Img variant="top" src="img/clients4.png" className="logos" />
         <Card.ImgOverlay>
           <Card.Body>
             <Card.Text>
