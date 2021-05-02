@@ -47,9 +47,10 @@ export const Home = (props) => (
       <Carousel className="carousel-solutions">
         <Carousel.Item>
           <CardDeck>
-            <Card>
+            <Card className="card-solutions" href="/">
               <Card.Img variant="top" src="img/virtualization.jpg" />
               <Card.Body>
+                <a href="/" class="stretched-link"> </a>
                 <Card.Title>Virtualization</Card.Title>
                 <Card.Text>
                   Many organizations have embraced the concept of virtualization,
@@ -61,9 +62,10 @@ export const Home = (props) => (
             </Card.Text>
               </Card.Body>
             </Card>
-            <Card>
+            <Card className="card-solutions">
               <Card.Img variant="top" src="img/security.jpg" />
               <Card.Body>
+                <a href="/" class="stretched-link"> </a>
                 <Card.Title>Security</Card.Title>
                 <Card.Text>
                   In the age of the expanded enterprise,
@@ -80,9 +82,10 @@ export const Home = (props) => (
             </Card.Text>
               </Card.Body>
             </Card>
-            <Card>
+            <Card className="card-solutions">
               <Card.Img variant="top" src="img/storage.jpg" />
               <Card.Body>
+                <a href="/" class="stretched-link"> </a>
                 <Card.Title>Storage</Card.Title>
                 <Card.Text>
                   Today’s organizations confront an explosion of data
@@ -98,9 +101,10 @@ export const Home = (props) => (
         </Carousel.Item>
         <Carousel.Item>
           <CardDeck>
-            <Card>
+            <Card className="card-solutions">
               <Card.Img variant="top" src="img/networking.jpg" />
               <Card.Body>
+                <a href="/" class="stretched-link"> </a>
                 <Card.Title>Networking</Card.Title>
                 <Card.Text>
                   Today’s enterprises are no longer confined to a single city,
@@ -113,9 +117,10 @@ export const Home = (props) => (
             </Card.Text>
               </Card.Body>
             </Card>
-            <Card>
+            <Card className="card-solutions">
               <Card.Img variant="top" src="img/enterprise.jpg" />
               <Card.Body>
+                <a href="/" class="stretched-link"> </a>
                 <Card.Title>Enterprise Management</Card.Title>
                 <Card.Text>
                   Your technology assets offer tremendous business potential.
@@ -128,9 +133,10 @@ export const Home = (props) => (
             </Card.Text>
               </Card.Body>
             </Card>
-            <Card>
+            <Card className="card-solutions">
               <Card.Img variant="top" src="img/cloud.jpg" />
               <Card.Body>
+                <a href="/" class="stretched-link"> </a>
                 <Card.Title>Cloud Solutions</Card.Title>
                 <Card.Text>
                   Empower your business with Cloud Solutions from Techpoint IT Solutions..
@@ -166,37 +172,37 @@ export const Home = (props) => (
       </Card>
       <Row ><Heading><h1>Quick Enquiry:</h1></Heading></Row>
       <Row>
-      <Carousel className="carousel-text">
-        <Carousel.Item>
-          <p>
-            Successfully brings together customized IT solutions and comprehensive engineering expertise,
-            and best-in-class products to offer solutions tailored to meet your organization’s unique
+        <Carousel className="carousel-text">
+          <Carousel.Item>
+            <p>
+              Successfully brings together customized IT solutions and comprehensive engineering expertise,
+              and best-in-class products to offer solutions tailored to meet your organization’s unique
               business requirements.</p>
-        </Carousel.Item>
-        <Carousel.Item>
-          <p>
-            We assess, design, acquire, implement and support your IT hardware and software solutions.
-            Techpoint IT Solutions. Serves mid-market, enterprise, government PSU and public sector and
+          </Carousel.Item>
+          <Carousel.Item>
+            <p>
+              We assess, design, acquire, implement and support your IT hardware and software solutions.
+              Techpoint IT Solutions. Serves mid-market, enterprise, government PSU and public sector and
               educational organizations.</p>
-        </Carousel.Item>
-        <Carousel.Item>
-          <p>
-            Our goals are to help our clients minimize their cost structure,
-            increase the effectiveness of their supply chain, secure their network,
+          </Carousel.Item>
+          <Carousel.Item>
+            <p>
+              Our goals are to help our clients minimize their cost structure,
+              increase the effectiveness of their supply chain, secure their network,
               improve communications and develop a customized storage management solution.</p>
-        </Carousel.Item>
-        <Carousel.Item>
-          <p>
-            Techpoint IT Solutions. Offers deployment services, delivery capabilities and
-            more throughout INDIA. Techpoint IT Solutions. Has a resource of far-reaching
-            channel agreements, as well as both national and international service and delivery
-            options, allowing us to deploy resources quickly and efficiently.
-            This flexibility helps us ensure that our customers are receiving the information
+          </Carousel.Item>
+          <Carousel.Item>
+            <p>
+              Techpoint IT Solutions. Offers deployment services, delivery capabilities and
+              more throughout INDIA. Techpoint IT Solutions. Has a resource of far-reaching
+              channel agreements, as well as both national and international service and delivery
+              options, allowing us to deploy resources quickly and efficiently.
+              This flexibility helps us ensure that our customers are receiving the information
               and resources they need to deal with all of their IT and business challenges...</p>
-        </Carousel.Item>
+          </Carousel.Item>
 
-      </Carousel>
-      <Enquiry />
+        </Carousel>
+        <Enquiry />
       </Row>
     </GridWrapper>
   </>

@@ -80,7 +80,24 @@ export const GridWrapper = styled.div`
     background-color: rgba(145, 169, 55, 0.4);
     border-radius: 20px;
     font-size: 12px;
+  }
+  .card-solutions {
+    transition: transform .4s ease;
+  }
 
+  .stretched-link, .stretched-link:hover {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    color: inherit;
+    opacity: 0;
+    poistion: absolute;
+    z-index:-1;
+  }
+
+  .card-solutions:hover {
+    transform: scale(0.98);
   }
 
   img, .carousel-inner {
