@@ -9,6 +9,9 @@ const GridWrapper = styled.div`
   grid-template-columns: repeat(5, 1fr);
   grid-auto-rows: minmax(50px, auto);
   color: white;
+  .navbar-collapse {
+    display:none;
+}
 `; 
 export const About = () => (
   <GridWrapper>
