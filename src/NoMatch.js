@@ -4,9 +4,12 @@ const Wrapper = styled.div`
   margin-top: 1em;
   margin-left: 6em;
   margin-right: 6em;
+  margin-bottom: 14em;
 `;
 export const NoMatch = () => (
   <Wrapper>
-    <h2>No Match</h2>
+    <h1>ERROR 404</h1>
+    <h2>Sorry, This Page does not exist......</h2>
+    <a href="/">Back to home</a>
   </Wrapper>
 )

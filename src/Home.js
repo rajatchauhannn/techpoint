@@ -173,34 +173,36 @@ export const Home = (props) => (
       <Row ><Heading><h1>Quick Enquiry:</h1></Heading></Row>
       <Row>
         <Carousel className="carousel-text">
-          <Carousel.Item>
+        <Carousel.Item>
             <p>
-              Successfully brings together customized IT solutions and comprehensive engineering expertise,
-              and best-in-class products to offer solutions tailored to meet your organization’s unique
-              business requirements.</p>
+              <h1>Corporate office:</h1><br />
+              E-6, 2nd Floor, Block-E, <br />
+              Main Road, Kalkaji,  <br />
+              New Delhi-110019 <br />
+              <br />
+              Mb:+91 965010 1559  <br />
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+91 997171 2955  <br />
+              Ph: +91 11-47025933 <br />
+              <br />
+              Email: kuldeep@techpointitsolutions.in <br />
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ujjwal@techpointitsolutions.in
+            </p>
           </Carousel.Item>
           <Carousel.Item>
             <p>
-              We assess, design, acquire, implement and support your IT hardware and software solutions.
-              Techpoint IT Solutions. Serves mid-market, enterprise, government PSU and public sector and
-              educational organizations.</p>
+              <h1>Registered office:</h1><br />
+              171, 2nd Floor, Sector-5, <br />
+              Vasundhara, Ghaziabad, <br />
+              Uttar Pradesh-201012. <br />
+              <br />
+              Mb:+91 965010 1559 <br />
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+91 997171 2955  <br />
+              <br />
+              Ph: +91 120-4575953 <br />
+              Email: kuldeep@techpointitsolutions.in <br />
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ujjwal@techpointitsolutions.in
+            </p>
           </Carousel.Item>
-          <Carousel.Item>
-            <p>
-              Our goals are to help our clients minimize their cost structure,
-              increase the effectiveness of their supply chain, secure their network,
-              improve communications and develop a customized storage management solution.</p>
-          </Carousel.Item>
-          <Carousel.Item>
-            <p>
-              Techpoint IT Solutions. Offers deployment services, delivery capabilities and
-              more throughout INDIA. Techpoint IT Solutions. Has a resource of far-reaching
-              channel agreements, as well as both national and international service and delivery
-              options, allowing us to deploy resources quickly and efficiently.
-              This flexibility helps us ensure that our customers are receiving the information
-              and resources they need to deal with all of their IT and business challenges...</p>
-          </Carousel.Item>
-
         </Carousel>
         <Enquiry />
       </Row>

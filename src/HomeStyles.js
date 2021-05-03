@@ -61,7 +61,6 @@ export const GridWrapper = styled.div`
     position: relative;
     background-color: rgba(145, 169, 55, 0.4);
     border-radius: 20px;
-    padding-top: 100px;
     .carousel-inner {
       padding 40px;
     }
@@ -69,7 +68,9 @@ export const GridWrapper = styled.div`
       opacity: 0;
     }
   }
-  
+  .carousel-caption {
+
+  }
   .car-img {
     postion: absolute;
     height:300px;
