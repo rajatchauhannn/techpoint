@@ -8,6 +8,7 @@
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
     "bootstrap": "^4.3.1",
+    "dotenv": "^8.2.0",
     "google-maps-react": "^2.0.6",
     "material-ui": "^0.20.2",
     "mdbreact": "^5.0.2",

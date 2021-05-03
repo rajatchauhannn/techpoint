@@ -14,12 +14,12 @@ export const NavigationBar = () => (
         <Nav className="navlinks ml-auto">
           <Nav.Link active href="/">ABOUT US</Nav.Link>
           <NavDropdown title="SOLUTIONS" id="collasible-nav-dropdown">
-            <NavDropdown.Item  href="#action/3.1">Virtualization</NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.2">Networking</NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.3">Storage</NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.4">Security</NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.5">Enterprise Management</NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.6">Cloud Solutions</NavDropdown.Item>
+            <NavDropdown.Item  href="Virtualization/">Virtualization</NavDropdown.Item>
+            <NavDropdown.Item href="Networking/">Networking</NavDropdown.Item>
+            <NavDropdown.Item href="Storage/">Storage</NavDropdown.Item>
+            <NavDropdown.Item href="Security/">Security</NavDropdown.Item>
+            <NavDropdown.Item href="Enterprise Management/">Enterprise Management</NavDropdown.Item>
+            <NavDropdown.Item href="Cloud Solutions/">Cloud Solutions</NavDropdown.Item>
           </NavDropdown>
           <Nav.Link href="/" >SUPPORT</Nav.Link>
           <Nav.Link href="/" >SERVICES</Nav.Link>

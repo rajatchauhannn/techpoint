@@ -2,7 +2,6 @@ import React from 'react';
 import { Form, Col, Button } from 'react-bootstrap';
 import { useForm } from "react-hook-form";
 
-
 const initialFormData = Object.freeze({
     username: "",
     email: "",
@@ -37,8 +36,8 @@ export const Enquiry = (props) => {
     const handleSubmit = (e) => {
         e.preventDefault()
         alert(`Thank you for your message. Your query has been forwarded.`);
-        const templateId = 'template_4rd43a2';
-        const serviceID = "service_xrensab";
+        const templateId = process.env.REACT_APP_TEMPLATE_ID;
+        const serviceID = process.env.REACT_APP_SERVICE_ID;
         sendFeedback(serviceID, templateId, { from_name: formData.name, mobile: formData.mobile, message_html: formData.query, email: formData.email })
 
         console.log(formData);
