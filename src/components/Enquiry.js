@@ -22,7 +22,7 @@ export const Enquiry = (props) => {
             console.log('Email successfully sent!')
         })
             .catch(err => console.error('There has been an error.  Here some thoughts on the error that occured:', err))
-    }
+    }   
     
 
     const handleChange = (e) => {

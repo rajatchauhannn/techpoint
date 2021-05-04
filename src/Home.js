@@ -50,7 +50,7 @@ export const Home = (props) => (
             <Card className="card-solutions" href="/">
               <Card.Img variant="top" src="img/virtualization.jpg" />
               <Card.Body>
-                <a href="/" class="stretched-link"> </a>
+                <a href="/virtualization/" class="stretched-link"> </a>
                 <Card.Title>Virtualization</Card.Title>
                 <Card.Text>
                   Many organizations have embraced the concept of virtualization,
@@ -65,7 +65,7 @@ export const Home = (props) => (
             <Card className="card-solutions">
               <Card.Img variant="top" src="img/security.jpg" />
               <Card.Body>
-                <a href="/" class="stretched-link"> </a>
+                <a href="/security/" class="stretched-link"> </a>
                 <Card.Title>Security</Card.Title>
                 <Card.Text>
                   In the age of the expanded enterprise,
@@ -85,7 +85,7 @@ export const Home = (props) => (
             <Card className="card-solutions">
               <Card.Img variant="top" src="img/storage.jpg" />
               <Card.Body>
-                <a href="/" class="stretched-link"> </a>
+                <a href="/storage/" class="stretched-link"> </a>
                 <Card.Title>Storage</Card.Title>
                 <Card.Text>
                   Today’s organizations confront an explosion of data
@@ -104,7 +104,7 @@ export const Home = (props) => (
             <Card className="card-solutions">
               <Card.Img variant="top" src="img/networking.jpg" />
               <Card.Body>
-                <a href="/" class="stretched-link"> </a>
+                <a href="/networking/" class="stretched-link"> </a>
                 <Card.Title>Networking</Card.Title>
                 <Card.Text>
                   Today’s enterprises are no longer confined to a single city,
@@ -120,7 +120,7 @@ export const Home = (props) => (
             <Card className="card-solutions">
               <Card.Img variant="top" src="img/enterprise.jpg" />
               <Card.Body>
-                <a href="/" class="stretched-link"> </a>
+                <a href="/enterprise management/" class="stretched-link"> </a>
                 <Card.Title>Enterprise Management</Card.Title>
                 <Card.Text>
                   Your technology assets offer tremendous business potential.
@@ -136,7 +136,7 @@ export const Home = (props) => (
             <Card className="card-solutions">
               <Card.Img variant="top" src="img/cloud.jpg" />
               <Card.Body>
-                <a href="/" class="stretched-link"> </a>
+                <a href="/cloud solutions" class="stretched-link"> </a>
                 <Card.Title>Cloud Solutions</Card.Title>
                 <Card.Text>
                   Empower your business with Cloud Solutions from Techpoint IT Solutions..
