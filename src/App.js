@@ -16,6 +16,7 @@ import  Security  from './solutions/Security';
 import  Storage  from './solutions/Storage';
 import  EnterpriseManagement  from './solutions/EnterpriseManagement';
 
+import { Test } from "./Test"
 
 
 function App() {
@@ -35,6 +36,7 @@ function App() {
             <Route path="/security" component = { Security } />
             <Route path="/storage" component = { Storage } />
             <Route path="/cloud solutions" component = { CloudSolutions } />
+            <Route path="/test" component={ Test } />
             <Route component={NoMatch} />
           </Switch>
         </Router>

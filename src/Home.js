@@ -2,6 +2,7 @@ import React from 'react';
 import { Card, CardDeck, Carousel, Row } from 'react-bootstrap';
 import { Enquiry } from './components/Enquiry';
 import { Heading, GridWrapper } from './HomeStyles';
+import ProgressiveImage from './components/ProgressiveImage';
 
 
 export const Home = (props) => (
@@ -9,36 +10,46 @@ export const Home = (props) => (
     <GridWrapper>
       <Carousel fade className="carousel-img">
         <Carousel.Item>
-          <img
-            className="d-block w-100 car-img"
+          <ProgressiveImage
+            overlayClass = {"car-img-compressed"}
+            className={"d-block w-100 car-img"}
+            overlaySrc={"img/stock_1_compressed.jpg"}
             src="img/stock_1.jpg"
             alt="First slide"
           />
         </Carousel.Item>
         <Carousel.Item>
-          <img
-            className="d-block w-100 car-img"
+        <ProgressiveImage
+            overlayClass = {"car-img-compressed"}
+            className={"d-block w-100 car-img"}
+            overlaySrc={"img/stock_2_compressed.jpg"}
             src="img/stock_2.jpg"
             alt="Second slide"
           />
         </Carousel.Item>
         <Carousel.Item>
-          <img
-            className="d-block w-100 car-img"
+        <ProgressiveImage
+            overlayClass = {"car-img-compressed"}
+            className={"d-block w-100 car-img"}
+            overlaySrc={"img/stock_3_compressed.jpg"}
             src="img/stock_3.jpg"
             alt="Third slide"
           />
         </Carousel.Item>
         <Carousel.Item>
-          <img
-            className="d-block w-100 car-img"
+        <ProgressiveImage
+            overlayClass = {"car-img-compressed"}
+            className={"d-block w-100 car-img"}
+            overlaySrc={"img/stock_4_compressed.jpg"}
             src="img/stock_4.jpg"
             alt="Fourth slide"
           />
         </Carousel.Item>
         <Carousel.Item>
-          <img
-            className="d-block w-100 car-img"
+        <ProgressiveImage
+            overlayClass = {"car-img-compressed"}
+            className={"d-block w-100 car-img"}
+            overlaySrc={"img/stock_5_compressed.jpg"}
             src="img/stock_5.jpg"
             alt="Fifth slide"
           />
