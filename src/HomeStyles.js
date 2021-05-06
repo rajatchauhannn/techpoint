@@ -61,9 +61,7 @@ export const GridWrapper = styled.div`
     position: relative;
     background-color: rgba(145, 169, 55, 0.4);
     border-radius: 20px;
-    .carousel-inner {
-      padding 40px;
-    }
+
     .carousel-control-prev-icon, .carousel-control-next-icon {
       opacity: 0;
     }

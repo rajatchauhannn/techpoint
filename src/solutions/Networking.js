@@ -1,26 +1,33 @@
 import React, { Component } from 'react';
-import styled from 'styled-components';
+import ProgressiveImage from '../components/ProgressiveImage';
+import { Wrapper } from './Styles';
 
-const Wrapper = styled.div`
-`;
+
 
 export default class Networking extends Component {
     render() {
         return (
             <Wrapper>
+                <ProgressiveImage
+                    overlayClass={"car-img-compressed"}
+                    className={"d-block w-100 car-img"}
+                    overlaySrc={"/img/stock_1_compressed.jpg"}
+                    src="/img/stock_1.jpg"
+                    alt="First slide"
+                />
                 <p> Get Your Network Up To Speed
-                Today’s enterprises are no longer confined to a single city, let alone a 
-                single office building. Companies operate from multiple campuses and 
-                geographic locations. They communicate with employees, customers and 
-                partners scattered across the country and the world. And they rely on 
-                their enterprise networks to keep the flow of information up and running 
+                Today’s enterprises are no longer confined to a single city, let alone a
+                single office building. Companies operate from multiple campuses and
+                geographic locations. They communicate with employees, customers and
+                partners scattered across the country and the world. And they rely on
+                their enterprise networks to keep the flow of information up and running
                 at the speed of business. That’s where Techpoint IT Solutions. comes in.
-                Whether building your LAN, WAN or remote-access network from the ground up, 
-                or extending a network already in place, we’ll make sure your infrastructure 
-                provides the robust reliability to support your technological requirements as 
-                well as your business objectives. During our initial assessment, we’ll 
-                evaluate your current network situation to identify any performance, 
-                availability and security challenges. Using this information, we’ll design 
+                Whether building your LAN, WAN or remote-access network from the ground up,
+                or extending a network already in place, we’ll make sure your infrastructure
+                provides the robust reliability to support your technological requirements as
+                well as your business objectives. During our initial assessment, we’ll
+                evaluate your current network situation to identify any performance,
+                availability and security challenges. Using this information, we’ll design
                 and architect an enterprise network optimized to:
                 • Integrate seamlessly across all new and existing network components
                 • Minimize costly downtime and lower overall costs

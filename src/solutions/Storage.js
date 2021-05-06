@@ -1,13 +1,18 @@
 import React, { Component } from 'react';
-import styled from 'styled-components';
-
-const Wrapper = styled.div`
-`;
+import ProgressiveImage from '../components/ProgressiveImage';
+import { Wrapper } from './Styles';
 
 export default class Storage extends Component {
     render() {
         return (
             <Wrapper>
+                <ProgressiveImage
+                    overlayClass={"car-img-compressed"}
+                    className={"d-block w-100 car-img"}
+                    overlaySrc={"/img/stock_1_compressed.jpg"}
+                    src="/img/stock_1.jpg"
+                    alt="First slide"
+                />
                 <p> Data, Data Everywhere
                 Today’s organizations confront an explosion of data captured and
                 collected from a multitude of sources across and beyond the enterprise.
