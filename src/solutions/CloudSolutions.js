@@ -1,13 +1,19 @@
 import React, { Component } from 'react';
-import styled from 'styled-components';
+import ProgressiveImage from '../components/ProgressiveImage';
+import { Wrapper } from './Styles';
 
-const Wrapper = styled.div`
-`;
 
 export default class CloudSolutions extends Component {
     render() {
         return (
             <Wrapper>
+                <ProgressiveImage
+                        overlayClass={"car-img-compressed"}
+                        className={"d-block w-100 car-img"}
+                        overlaySrc={"/img/stock_1_compressed.jpg"}
+                        src="/img/stock_1.jpg"
+                        alt="First slide"
+                    />
                 <p> Leverage the Hybrid Cloud
                 Empower your business with Cloud Solutions from Techpoint IT Solutions.. 
                 Designed to enable your organization with more agile, cost effective 

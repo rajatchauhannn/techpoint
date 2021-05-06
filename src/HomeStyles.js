@@ -61,21 +61,22 @@ export const GridWrapper = styled.div`
     position: relative;
     background-color: rgba(145, 169, 55, 0.4);
     border-radius: 20px;
-    .carousel-inner {
-      padding 40px;
-    }
+
     .carousel-control-prev-icon, .carousel-control-next-icon {
       opacity: 0;
     }
   }
-  .carousel-caption {
+  .car-img-compressed {
+    postion: relative;
+    z-index: -1;
+    margin-top: -300px
 
   }
+
   .car-img {
     postion: absolute;
     height:300px;
-    width: 100px;
-    margin: auto;
+    width: 1000px;
   }
   .card {
     background-color: rgba(145, 169, 55, 0.4);

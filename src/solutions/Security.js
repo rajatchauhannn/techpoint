@@ -1,13 +1,18 @@
 import React, { Component } from 'react';
-import styled from 'styled-components';
-
-const Wrapper = styled.div`
-`;
+import ProgressiveImage from '../components/ProgressiveImage';
+import { Wrapper } from './Styles';
 
 export default class Security extends Component {
     render() {
         return (
             <Wrapper>
+                <ProgressiveImage
+                    overlayClass={"car-img-compressed"}
+                    className={"d-block w-100 car-img"}
+                    overlaySrc={"/img/stock_1_compressed.jpg"}
+                    src="/img/stock_1.jpg"
+                    alt="First slide"
+                />
                 <p>Your Information, Secured
                 In the age of the expanded enterprise,
                 organizations amass massive amounts of information
