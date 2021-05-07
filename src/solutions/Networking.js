@@ -8,13 +8,15 @@ export default class Networking extends Component {
     render() {
         return (
             <Wrapper>
+                <div>
+                    <h1>Networking</h1>
                 <ProgressiveImage
                     overlayClass={"car-img-compressed"}
                     className={"d-block w-100 car-img"}
-                    overlaySrc={"/img/stock_1_compressed.jpg"}
-                    src="/img/stock_1.jpg"
-                    alt="First slide"
+                    overlaySrc={"/img/solutions/Networking_compressed.jpg"}
+                    src="/img/solutions/Networking.jpg"
                 />
+                </div>
                 <p> Get Your Network Up To Speed
                 Today’s enterprises are no longer confined to a single city, let alone a
                 single office building. Companies operate from multiple campuses and

@@ -8,13 +8,16 @@ export default class Virtualization extends Component {
         return (
             <>
                 <Wrapper>
-                    <ProgressiveImage
-                        overlayClass={"car-img-compressed"}
-                        className={"d-block w-100 car-img"}
-                        overlaySrc={"/img/stock_1_compressed.jpg"}
-                        src="/img/stock_1.jpg"
-                        alt="First slide"
-                    />
+                    <div>
+                        <h1>Virtualization</h1>
+                        <ProgressiveImage
+                            overlayClass={"car-img-compressed"}
+                            className={"d-block w-100 car-img"}
+                            overlaySrc={"/img/solutions/Virtualization_compressed.jpg"}
+                            src="/img/solutions/Virtualization.jpg"
+                            alt="First slide"
+                        />
+                    </div>
                     <Row>
                         <Col>
                             <p> Virtualization Realized

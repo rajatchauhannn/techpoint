@@ -7,13 +7,15 @@ export default class EnterpriseManagement extends Component {
     render() {
         return (
             <Wrapper>
-                <ProgressiveImage
-                    overlayClass={"car-img-compressed"}
-                    className={"d-block w-100 car-img"}
-                    overlaySrc={"/img/stock_1_compressed.jpg"}
-                    src="/img/stock_1.jpg"
-                    alt="First slide"
-                />
+                <div>
+                    <h1>Enterprise Management</h1>
+                    <ProgressiveImage
+                        overlayClass={"car-img-compressed"}
+                        className={"d-block w-100 car-img"}
+                        overlaySrc={"/img/solutions/Enterprise Management_compressed.jpg"}
+                        src="/img/solutions/Enterprise Management.jpg"
+                    />
+                </div>
                 <p> Turn Technology Assets Into Business Advantages
                 Your technology assets offer tremendous business potential.
                 The challenge is: how do you identify and tap into that potential,

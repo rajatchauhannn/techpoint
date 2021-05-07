@@ -6,13 +6,15 @@ export default class Security extends Component {
     render() {
         return (
             <Wrapper>
-                <ProgressiveImage
-                    overlayClass={"car-img-compressed"}
-                    className={"d-block w-100 car-img"}
-                    overlaySrc={"/img/stock_1_compressed.jpg"}
-                    src="/img/stock_1.jpg"
-                    alt="First slide"
-                />
+                <div>
+                    <h1>Security</h1>
+                    <ProgressiveImage
+                        overlayClass={"car-img-compressed"}
+                        className={"d-block w-100 car-img"}
+                        overlaySrc={"/img/solutions/Security_compressed.jpg"}
+                        src="/img/solutions/Security.jpg"
+                    />
+                </div>
                 <p>Your Information, Secured
                 In the age of the expanded enterprise,
                 organizations amass massive amounts of information
