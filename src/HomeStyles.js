@@ -56,6 +56,7 @@ export const GridWrapper = styled.div`
   }
 
   .carousel-text{
+    padding: 3em;
     width:500px;
     height:100%;
     position: relative;

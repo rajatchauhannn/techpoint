@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Col, Row } from 'react-bootstrap';
 import ProgressiveImage from '../components/ProgressiveImage';
 import { Wrapper } from './Styles';
+import SideBar from '../components/SideBar';
 
 export default class Virtualization extends Component {
     render() {
@@ -19,7 +20,7 @@ export default class Virtualization extends Component {
                         />
                     </div>
                     <Row>
-                        <Col>
+                        <Col xs={9}>
                             <p> Virtualization Realized
                             Many organizations have embraced the concept
                             of virtualization, only to encounter the myriad
@@ -29,8 +30,6 @@ export default class Virtualization extends Component {
                             the application layer, enabling us to optimize the way you
                             manage — and maximize — your entire environment.
                     </p>
-                        </Col>
-                        <Col>
                             <p>
                                 Through careful assessment and evaluation, we make sure we
                                 understand how your current virtualization investments
@@ -45,6 +44,9 @@ export default class Virtualization extends Component {
                                 success of your virtualization strategy. In short, we make the
                                 promise of virtualization a business reality.
                 </p>
+                        </Col>
+                        <Col>
+                            <SideBar />
                         </Col>
                     </Row>
                 </Wrapper>
