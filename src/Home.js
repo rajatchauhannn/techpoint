@@ -11,7 +11,7 @@ export const Home = (props) => (
       <Carousel fade className="carousel-img">
         <Carousel.Item>
           <ProgressiveImage
-            overlayClass = {"car-img-compressed"}
+            overlayClass={"car-img-compressed"}
             className={"d-block w-100 car-img"}
             overlaySrc={"img/stock_1_compressed.jpg"}
             src="img/stock_1.jpg"
@@ -19,8 +19,8 @@ export const Home = (props) => (
           />
         </Carousel.Item>
         <Carousel.Item>
-        <ProgressiveImage
-            overlayClass = {"car-img-compressed"}
+          <ProgressiveImage
+            overlayClass={"car-img-compressed"}
             className={"d-block w-100 car-img"}
             overlaySrc={"img/stock_2_compressed.jpg"}
             src="img/stock_2.jpg"
@@ -28,8 +28,8 @@ export const Home = (props) => (
           />
         </Carousel.Item>
         <Carousel.Item>
-        <ProgressiveImage
-            overlayClass = {"car-img-compressed"}
+          <ProgressiveImage
+            overlayClass={"car-img-compressed"}
             className={"d-block w-100 car-img"}
             overlaySrc={"img/stock_3_compressed.jpg"}
             src="img/stock_3.jpg"
@@ -37,8 +37,8 @@ export const Home = (props) => (
           />
         </Carousel.Item>
         <Carousel.Item>
-        <ProgressiveImage
-            overlayClass = {"car-img-compressed"}
+          <ProgressiveImage
+            overlayClass={"car-img-compressed"}
             className={"d-block w-100 car-img"}
             overlaySrc={"img/stock_4_compressed.jpg"}
             src="img/stock_4.jpg"
@@ -46,8 +46,8 @@ export const Home = (props) => (
           />
         </Carousel.Item>
         <Carousel.Item>
-        <ProgressiveImage
-            overlayClass = {"car-img-compressed"}
+          <ProgressiveImage
+            overlayClass={"car-img-compressed"}
             className={"d-block w-100 car-img"}
             overlaySrc={"img/stock_5_compressed.jpg"}
             src="img/stock_5.jpg"
@@ -181,42 +181,42 @@ export const Home = (props) => (
           </Card.Body>
         </Card.ImgOverlay>
       </Card>
-      <Row ><Heading><h1>Quick Enquiry:</h1></Heading></Row>
-      <Row>
-        <Carousel className="carousel-text">
-        <Carousel.Item>
-            <p>
-              <h1>Corporate office:</h1><br />
+      <Row><Heading><h1>Quick Enquiry:</h1></Heading></Row>
+        <Row>
+          <Carousel className="carousel-text">
+            <Carousel.Item>
+              <p>
+                <h1>Corporate office:</h1><br />
               E-6, 2nd Floor, Block-E, <br />
               Main Road, Kalkaji,  <br />
               New Delhi-110019 <br />
-              <br />
+                <br />
               Mb:+91 965010 1559  <br />
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+91 997171 2955  <br />
               Ph: +91 11-47025933 <br />
-              <br />
+                <br />
               Email: kuldeep@techpointitsolutions.in <br />
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ujjwal@techpointitsolutions.in
             </p>
-          </Carousel.Item>
-          <Carousel.Item>
-            <p>
-              <h1>Registered office:</h1><br />
+            </Carousel.Item>
+            <Carousel.Item>
+              <p>
+                <h1>Registered office:</h1><br />
               171, 2nd Floor, Sector-5, <br />
               Vasundhara, Ghaziabad, <br />
               Uttar Pradesh-201012. <br />
-              <br />
+                <br />
               Mb:+91 965010 1559 <br />
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+91 997171 2955  <br />
-              <br />
+                <br />
               Ph: +91 120-4575953 <br />
               Email: kuldeep@techpointitsolutions.in <br />
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ujjwal@techpointitsolutions.in
             </p>
-          </Carousel.Item>
-        </Carousel>
-        <Enquiry />
-      </Row>
+            </Carousel.Item>
+          </Carousel>
+          <Enquiry />
+        </Row>
     </GridWrapper>
   </>
 )

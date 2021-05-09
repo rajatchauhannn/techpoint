@@ -1,8 +1,15 @@
 import styled from 'styled-components';
 
 
+
 export const Heading = styled.div`
-  
+  @media only screen and (max-width: 720px) {
+    padding: 1em;
+    padding-left: 5em;
+    padding-right: 5em;
+    margin-left: 0;
+
+  }
   margin: auto;
   position: relative;
   left: 5px;
@@ -18,6 +25,7 @@ export const Heading = styled.div`
 export const GridWrapper = styled.div`
 
   @media only screen and (max-width: 720px) {
+    
     [class*="img"] {
       width: 100%;
     }
@@ -29,8 +37,13 @@ export const GridWrapper = styled.div`
     }
     [class*="carousel-logos"] {
       width: 45%;
+      height:500px;
+    }
+    [class*="row"] {
+      margin: auto;
     }
   }
+  
 
   padding-top: 50px;
   max-width: 1000px;
@@ -56,10 +69,11 @@ export const GridWrapper = styled.div`
   }
 
   .carousel-text{
+    position: relative;
     padding: 3em;
+    padding-bottom: 85px;
     width:500px;
     height:100%;
-    position: relative;
     background-color: rgba(145, 169, 55, 0.4);
     border-radius: 20px;
 
@@ -117,8 +131,8 @@ export const GridWrapper = styled.div`
     padding: 0 50px 0 50px;
   }
   form {
-    position: relative;
-    left 10px;
+    position: absolute;
+    left 510px;
     width: 50%;
     border-radius: 20px;
     background-color: rgba(127, 127, 125, 0.4);
@@ -127,8 +141,8 @@ export const GridWrapper = styled.div`
 
   .row {
     position: relative;
-    left 10px;
-    width 1000px;
+    left: 10px;
+    width: 1000px;
   }
 
 `;
