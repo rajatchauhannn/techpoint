@@ -7,12 +7,16 @@ const initialFormData = Object.freeze({
     email: "",
     mobile: "",
     query: ""
-  });
-  
+});
+
 
 export const Enquiry = (props) => {
     const { register } = useForm();
     const [formData, updateFormData] = React.useState(initialFormData);
+
+    function resetFunction() {
+        document.getElementById("enquiry").reset();
+    }
 
     const sendFeedback = (serviceID, templateId, variables) => {
         window.emailjs.send(
@@ -22,33 +26,42 @@ export const Enquiry = (props) => {
             console.log('Email successfully sent!')
         })
             .catch(err => console.error('There has been an error.  Here some thoughts on the error that occured:', err))
-    }   
-    
+        resetFunction()
+    }
+
 
     const handleChange = (e) => {
         updateFormData({
-          ...formData,
+            ...formData,
 
-          [e.target.name]: e.target.value.trim()
+            [e.target.name]: e.target.value.trim()
         });
-      };
+    };
 
     const handleSubmit = (e) => {
         e.preventDefault()
-        alert(`Thank you for your message. Your query has been forwarded.`);
-        const templateId = process.env.REACT_APP_TEMPLATE_ID;
-        const serviceID = process.env.REACT_APP_SERVICE_ID;
-        sendFeedback(serviceID, templateId, { from_name: formData.name, mobile: formData.mobile, message_html: formData.query, email: formData.email })
-
-        console.log(formData);
-      };
+        if (formData.name !== "" && formData.mobile !== "" && formData.query !== "" && formData.email !== "") {
+            alert(`Thank you for your message. Your query has been forwarded.`);
+            const templateId = process.env.REACT_APP_TEMPLATE_ID;
+            const serviceID = process.env.REACT_APP_SERVICE_ID;
+            sendFeedback(serviceID, templateId, { from_name: formData.name, mobile: formData.mobile, message_html: formData.query, email: formData.email })
+            console.log(formData);
+        }
+    };
 
     return (
 
         <Form id="enquiry">
             <Form.Group as={Col} controlId="formGridName">
                 <Form.Label>Name*</Form.Label>
-                <Form.Control onChange={handleChange} name="name" type="name" placeholder="Name" />
+                <Form.Control onChange={handleChange} name="name" type="name" placeholder="Name"
+                    ref={
+                        register(
+                            "name", {
+                            required: true
+                        }
+                        )
+                    } />
             </Form.Group>
 
             <Form.Group as={Col} controlId="formGridEmail">
